@@ -1,0 +1,4 @@
+interface Checkable {
+
+    void check();
+}
