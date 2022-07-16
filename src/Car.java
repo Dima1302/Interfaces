@@ -6,12 +6,12 @@ public class Car extends Transport implements Checkable {
 
     @Override
     public void check() {
-            System.out.println("Обслуживаем " + getModelName());
-            for (int i = 0; i < getWheelsCount(); i++) {
-                updateTyre();
-            }
-            checkEngine();
+        System.out.println("Обслуживаем " + getModelName());
+        for (int i = 0; i < getWheelsCount(); i++) {
+            updateTyre();
         }
+        checkEngine();
+    }
 
 
     public void checkEngine() {
